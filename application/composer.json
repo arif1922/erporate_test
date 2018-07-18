@@ -1,0 +1,6 @@
+{
+    "require": {
+        "thiagoalessio/tesseract_ocr": "^2.0",
+        "nesbot/carbon": "^1.26"
+    }
+}
