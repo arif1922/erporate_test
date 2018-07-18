@@ -118,7 +118,7 @@ class App extends CI_Controller {
     if ($this->session->userdata('level') == 'pelayan') {
       $this->db->where('uid', $this->session->userdata('uid'));
     }
-    $this->db->select('id_pesanan, waktu, status_pesanan, no_meja');
+    $this->db->select('id_pesanan, waktu, status_pesanan, no_meja, sum(harga) as total');
     $this->db->join('menu', 'pesanan.id_menu = menu.id_menu');
     $this->db->group_by('id_pesanan');
     $data = $this->db->get('pesanan')->result();
@@ -308,6 +308,10 @@ class App extends CI_Controller {
 
       echo json_encode(true);
     }
+
+
+
+
 
 
 }

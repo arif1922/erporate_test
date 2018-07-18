@@ -27,12 +27,23 @@
                   </div>
                   <div class="col-md-6" id="pesanan_kosong" style="background: white; box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); display: none">
                     <img src="<?php echo base_url("assets/pesanankosong.png")?>">
-                    <h4>Belum ada pesanan</h4>
+                    <h4>Belum ada pesanan</h4> 
+                    
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <h4 style="margin-top: 10px; margin-bottom:20px " class="text-left"><b>Pesanan Terbayar</b></h4>
-                  <div class="row" style="margin:0px" id="daftar_pesanan_terbayar">
+
+                  <div class="row">
+                    <h4 style="margin-top: 10px; margin-bottom:20px " class="text-left col-md-12"><b>Pesanan Terbayar</b></h4>
+                    
+                    <label class="col-md-6" style="margin:0px">Total: </label> 
+                    <label class="col-md-6 text-right" style="margin:0px"><b id="qty_penjualan">3</b> Penjualan</label>
+                    <label class="col-md-7" style="margin:0px">Total nominal: </label> 
+                    <label class="col-md-5 text-right" style="margin:0px" id="total_penjualan">100000</label>
+
+                  </div>
+                  
+                  <div class="row" style="margin-top:5px" id="daftar_pesanan_terbayar">
                     
                   </div>
                 </div>
@@ -167,6 +178,8 @@
             $('#daftar_pesanan_terbayar').empty();
 
             aktif = 0;
+            qty = 0;
+            nominal = 0;
             $.each(data, function(a, b) {
 
 
@@ -188,6 +201,9 @@
                           
                         '</div>'+
                     '</div>';
+
+                    qty += 1;
+                    nominal += parseInt(b.total);
               }
               else{
                 append = "daftar_pesanan";
@@ -214,6 +230,10 @@
               }
               $(rows2).appendTo("#"+append);
             });
+
+
+            $('#qty_penjualan').text(qty);
+            $('#total_penjualan').text(accounting.formatNumber(nominal));
           }
           
         },
