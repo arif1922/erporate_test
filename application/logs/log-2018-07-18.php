@@ -26606,3 +26606,197 @@ INFO - 2018-07-18 21:54:46 --> Controller Class Initialized
 DEBUG - 2018-07-18 21:54:46 --> Session class already loaded. Second attempt ignored.
 INFO - 2018-07-18 21:54:46 --> Final output sent to browser
 DEBUG - 2018-07-18 21:54:46 --> Total execution time: 0.0771
+INFO - 2018-07-18 15:33:18 --> Config Class Initialized
+INFO - 2018-07-18 15:33:18 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:33:18 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:33:18 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:33:18 --> URI Class Initialized
+INFO - 2018-07-18 15:33:18 --> Router Class Initialized
+INFO - 2018-07-18 15:33:18 --> Output Class Initialized
+INFO - 2018-07-18 15:33:18 --> Security Class Initialized
+DEBUG - 2018-07-18 15:33:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:33:18 --> Input Class Initialized
+INFO - 2018-07-18 15:33:18 --> Language Class Initialized
+ERROR - 2018-07-18 15:33:18 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) /Applications/MAMP/htdocs/kasir/application/controllers/Api.php 32
+INFO - 2018-07-18 15:34:00 --> Config Class Initialized
+INFO - 2018-07-18 15:34:00 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:34:00 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:34:00 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:34:00 --> URI Class Initialized
+INFO - 2018-07-18 15:34:00 --> Router Class Initialized
+INFO - 2018-07-18 15:34:00 --> Output Class Initialized
+INFO - 2018-07-18 15:34:00 --> Security Class Initialized
+DEBUG - 2018-07-18 15:34:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:34:00 --> Input Class Initialized
+INFO - 2018-07-18 15:34:00 --> Language Class Initialized
+INFO - 2018-07-18 22:34:00 --> Loader Class Initialized
+INFO - 2018-07-18 22:34:00 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:34:00 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:34:00 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:34:00 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:34:00 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:34:00 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:34:00 --> Email Class Initialized
+DEBUG - 2018-07-18 22:34:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:34:00 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:34:00 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:34:00 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:34:00 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:34:00 --> Language file loaded: language/english/rest_controller_lang.php
+ERROR - 2018-07-18 22:34:00 --> Severity: Notice --> Undefined property: Api::$Username /Applications/MAMP/htdocs/kasir/application/controllers/Api.php 27
+INFO - 2018-07-18 15:34:30 --> Config Class Initialized
+INFO - 2018-07-18 15:34:30 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:34:30 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:34:30 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:34:30 --> URI Class Initialized
+INFO - 2018-07-18 15:34:30 --> Router Class Initialized
+INFO - 2018-07-18 15:34:30 --> Output Class Initialized
+INFO - 2018-07-18 15:34:30 --> Security Class Initialized
+DEBUG - 2018-07-18 15:34:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:34:30 --> Input Class Initialized
+INFO - 2018-07-18 15:34:30 --> Language Class Initialized
+INFO - 2018-07-18 22:34:30 --> Loader Class Initialized
+INFO - 2018-07-18 22:34:30 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:34:30 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:34:30 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:34:30 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:34:30 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:34:30 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:34:30 --> Email Class Initialized
+DEBUG - 2018-07-18 22:34:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:34:30 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:34:30 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:34:30 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:34:30 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:34:30 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-07-18 15:34:39 --> Config Class Initialized
+INFO - 2018-07-18 15:34:39 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:34:39 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:34:39 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:34:39 --> URI Class Initialized
+INFO - 2018-07-18 15:34:39 --> Router Class Initialized
+INFO - 2018-07-18 15:34:39 --> Output Class Initialized
+INFO - 2018-07-18 15:34:39 --> Security Class Initialized
+DEBUG - 2018-07-18 15:34:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:34:39 --> Input Class Initialized
+INFO - 2018-07-18 15:34:39 --> Language Class Initialized
+INFO - 2018-07-18 22:34:39 --> Loader Class Initialized
+INFO - 2018-07-18 22:34:39 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:34:39 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:34:39 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:34:39 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:34:39 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:34:39 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:34:39 --> Email Class Initialized
+DEBUG - 2018-07-18 22:34:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:34:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:34:39 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:34:39 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:34:39 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:34:39 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-07-18 15:36:51 --> Config Class Initialized
+INFO - 2018-07-18 15:36:51 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:36:51 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:36:51 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:36:51 --> URI Class Initialized
+INFO - 2018-07-18 15:36:51 --> Router Class Initialized
+INFO - 2018-07-18 15:36:51 --> Output Class Initialized
+INFO - 2018-07-18 15:36:51 --> Security Class Initialized
+DEBUG - 2018-07-18 15:36:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:36:51 --> Input Class Initialized
+INFO - 2018-07-18 15:36:51 --> Language Class Initialized
+INFO - 2018-07-18 22:36:51 --> Loader Class Initialized
+INFO - 2018-07-18 22:36:51 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:36:51 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:36:51 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:36:51 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:36:51 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:36:51 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:36:51 --> Email Class Initialized
+DEBUG - 2018-07-18 22:36:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:36:51 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:36:51 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:36:51 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:36:51 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:36:51 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-07-18 22:36:51 --> Final output sent to browser
+DEBUG - 2018-07-18 22:36:51 --> Total execution time: 0.0898
+INFO - 2018-07-18 15:37:16 --> Config Class Initialized
+INFO - 2018-07-18 15:37:16 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:37:16 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:37:16 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:37:16 --> URI Class Initialized
+INFO - 2018-07-18 15:37:16 --> Router Class Initialized
+INFO - 2018-07-18 15:37:16 --> Output Class Initialized
+INFO - 2018-07-18 15:37:16 --> Security Class Initialized
+DEBUG - 2018-07-18 15:37:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:37:16 --> Input Class Initialized
+INFO - 2018-07-18 15:37:16 --> Language Class Initialized
+INFO - 2018-07-18 22:37:16 --> Loader Class Initialized
+INFO - 2018-07-18 22:37:16 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:37:16 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:37:16 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:37:16 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:37:16 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:37:16 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:37:16 --> Email Class Initialized
+DEBUG - 2018-07-18 22:37:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:37:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:37:16 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:37:16 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:37:16 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:37:16 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-07-18 22:37:16 --> Final output sent to browser
+DEBUG - 2018-07-18 22:37:16 --> Total execution time: 0.0649
+INFO - 2018-07-18 15:37:22 --> Config Class Initialized
+INFO - 2018-07-18 15:37:22 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:37:22 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:37:22 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:37:22 --> URI Class Initialized
+INFO - 2018-07-18 15:37:22 --> Router Class Initialized
+INFO - 2018-07-18 15:37:22 --> Output Class Initialized
+INFO - 2018-07-18 15:37:22 --> Security Class Initialized
+DEBUG - 2018-07-18 15:37:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:37:22 --> Input Class Initialized
+INFO - 2018-07-18 15:37:22 --> Language Class Initialized
+INFO - 2018-07-18 22:37:22 --> Loader Class Initialized
+INFO - 2018-07-18 22:37:22 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:37:22 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:37:22 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:37:22 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:37:22 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:37:22 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:37:22 --> Email Class Initialized
+DEBUG - 2018-07-18 22:37:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:37:22 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:37:22 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:37:22 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:37:22 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:37:22 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-07-18 22:37:22 --> Final output sent to browser
+DEBUG - 2018-07-18 22:37:22 --> Total execution time: 0.0629
+INFO - 2018-07-18 15:37:47 --> Config Class Initialized
+INFO - 2018-07-18 15:37:47 --> Hooks Class Initialized
+DEBUG - 2018-07-18 15:37:47 --> UTF-8 Support Enabled
+INFO - 2018-07-18 15:37:47 --> Utf8 Class Initialized
+INFO - 2018-07-18 15:37:47 --> URI Class Initialized
+INFO - 2018-07-18 15:37:47 --> Router Class Initialized
+INFO - 2018-07-18 15:37:47 --> Output Class Initialized
+INFO - 2018-07-18 15:37:47 --> Security Class Initialized
+DEBUG - 2018-07-18 15:37:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-18 15:37:47 --> Input Class Initialized
+INFO - 2018-07-18 15:37:47 --> Language Class Initialized
+INFO - 2018-07-18 22:37:47 --> Loader Class Initialized
+INFO - 2018-07-18 22:37:47 --> Helper loaded: url_helper
+INFO - 2018-07-18 22:37:47 --> Helper loaded: file_helper
+INFO - 2018-07-18 22:37:47 --> Helper loaded: tanggal_helper
+INFO - 2018-07-18 22:37:47 --> Helper loaded: parseimage_helper
+INFO - 2018-07-18 22:37:47 --> Helper loaded: string_helper
+INFO - 2018-07-18 22:37:47 --> Database Driver Class Initialized
+INFO - 2018-07-18 22:37:47 --> Email Class Initialized
+DEBUG - 2018-07-18 22:37:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-18 22:37:47 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-18 22:37:47 --> Controller Class Initialized
+DEBUG - 2018-07-18 22:37:47 --> Config file loaded: /Applications/MAMP/htdocs/kasir/application/config/rest.php
+INFO - 2018-07-18 22:37:47 --> Helper loaded: inflector_helper
+INFO - 2018-07-18 22:37:47 --> Language file loaded: language/english/rest_controller_lang.php
