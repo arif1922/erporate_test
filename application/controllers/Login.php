@@ -57,4 +57,38 @@ class Login extends CI_Controller {
 		}
 
 	}
+
+
+	function registrasi(){
+
+      
+
+      $this->db->where('username', $this->input->post('username'));
+      $x = $this->db->get('user')->row();
+      
+      // echo $x->username;
+      if ($x) {
+        echo json_encode(false);
+      }else{
+        $i = array(
+          'nama' => $this->input->post('nama'),
+          'username' => $this->input->post('username'),
+          'password' => md5($this->input->post('password')),
+          'level' => $this->input->post('tipe')
+        );
+        $this->db->insert('user', $i);
+
+        //log     
+        $log = array(
+          'waktu' => date('Y-m-d H:i:s'),
+          'aktifitas' => "Registrasi user baru dengan username ".$this->input->post('username'),
+          'id' => $this->session->userdata('uid')
+        );
+        $this->db->insert('activity', $log); 
+
+        echo json_encode(true);       
+      }
+          
+      
+    }
 }

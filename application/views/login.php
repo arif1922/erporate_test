@@ -131,6 +131,69 @@
 
 
 
+ <div class="modal fade" id="modal-reg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button style="color: red;font-size: 30px;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 id="" class="modal-title" style="font-weight: bold;"><i class="material-icons">assignment</i>Registrasi</h4>
+
+                    
+                </div>
+                <div class="modal-body">
+                                    <div class="row">
+                                            <label class="col-sm-4 label-on-right">Nama</label>
+                                            <div class="col-sm-8">
+                                                <div class="form-group label-floating" style="margin: 0px">
+                                                    <input class="form-control" type="text" id="nama" value="" required="true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                            <label class="col-sm-4 label-on-right">Username</label>
+                                            <div class="col-sm-8">
+                                                <div class="form-group label-floating" style="margin: 0px">
+                                                    <input class="form-control" type="text" id="username_reg" value="" required="true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                            <label class="col-sm-4 label-on-right">Password</label>
+                                            <div class="col-sm-8">
+                                                <div class="form-group label-floating" style="margin: 0px">
+                                                    <input class="form-control" type="text" id="pass_reg" value="" required="true">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    <div class="row">
+                                            <label class="col-sm-4 label-on-right">Tipe user</label>
+                                            <div class="col-sm-8">
+                                                <div class="form-group label-floating" style="margin: 0px">
+                                                    <select class="form-control" id="tipe">
+                                                        <option>kasir</option>
+                                                        <option>pelayan</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                </div>
+                <div class="modal-footer">
+                  
+
+                    <button onclick="registrasi()" style="margin: 10px;" type="button" class="btn  btn-success" id="btn-save"><span class="btn-label">Registrasi</span></button>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 <script type="text/javascript">
@@ -150,6 +213,7 @@
     }
 
     function reg(){
+        // alert()
       $('#modal-reg').modal('show');
     }
 
@@ -161,22 +225,25 @@
 
     function registrasi(){
       $.ajax({
-         url : "<?php echo site_url('App/registrasi')?>",
+         url : "<?php echo site_url('Login/registrasi')?>",
          data: {
-           "npm":$('#npm').val(),
            "nama":$('#nama').val(),
-           "semester":$('#semester').val(),
-           "fakultas":$('#fakultas').val(),
-           "jurusan":$('#jurusan').val(),
            "username":$('#username_reg').val(),
-           "password":$('#password_reg').val()
+           "password":$('#pass_reg').val(),
+           "tipe":$('#tipe').val(),
          },
          type: "POST",
          dataType: "JSON",
          success: function(data)
          {
-           swal('Sukses','Silahkan melanjutkan login aplikasi.','success');
-           $('#modal-reg').modal('hide');
+            if (data) {
+                swal('Sukses','Silahkan melanjutkan login aplikasi.','success');
+                $('#modal-reg').modal('hide');
+            }else{
+                swal('Gagal','Username sudah ada','error');
+
+            }
+           
          },
          error: function (jqXHR, textStatus, errorThrown)
          {
