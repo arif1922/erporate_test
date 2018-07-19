@@ -11,7 +11,7 @@
  Target Server Version : 50638
  File Encoding         : 65001
 
- Date: 18/07/2018 22:15:28
+ Date: 19/07/2018 07:29:47
 */
 
 SET NAMES utf8mb4;
@@ -44,6 +44,12 @@ INSERT INTO `activity` VALUES ('2018-07-18 21:48:12', 'Menambahkan menu ID: 3 ke
 INSERT INTO `activity` VALUES ('2018-07-18 21:48:32', 'Logout', '3');
 INSERT INTO `activity` VALUES ('2018-07-18 21:48:36', 'Login', '1');
 INSERT INTO `activity` VALUES ('2018-07-18 21:49:42', 'Pembayaran pesanan ID: ERP18072018-010', '1');
+INSERT INTO `activity` VALUES ('2018-07-19 05:14:46', 'Login', '1');
+INSERT INTO `activity` VALUES ('2018-07-19 06:06:52', 'Logout', '1');
+INSERT INTO `activity` VALUES ('2018-07-19 06:29:36', 'Registrasi user baru dengan username x', NULL);
+INSERT INTO `activity` VALUES ('2018-07-19 06:31:28', 'Registrasi user baru dengan username indro', NULL);
+INSERT INTO `activity` VALUES ('2018-07-19 06:32:40', 'Registrasi user baru dengan username indro', NULL);
+INSERT INTO `activity` VALUES ('2018-07-19 06:32:48', 'Login', '6');
 COMMIT;
 
 -- ----------------------------
@@ -58,7 +64,7 @@ CREATE TABLE `menu` (
   `tipe` varchar(10) COLLATE utf8_swedish_ci DEFAULT NULL,
   `img` varchar(50) COLLATE utf8_swedish_ci DEFAULT NULL,
   PRIMARY KEY (`id_menu`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 
 -- ----------------------------
 -- Records of menu
@@ -113,7 +119,7 @@ CREATE TABLE `user` (
   `username` varchar(50) COLLATE utf8_swedish_ci DEFAULT NULL,
   `password` varchar(50) COLLATE utf8_swedish_ci DEFAULT NULL,
   PRIMARY KEY (`uid`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 
 -- ----------------------------
 -- Records of user
@@ -122,6 +128,7 @@ BEGIN;
 INSERT INTO `user` VALUES (1, 'Arif', 'kasir', 'arif', '0FF6C3ACE16359E41E37D40B8301D67F');
 INSERT INTO `user` VALUES (2, 'Susi', 'pelayan', 'susi', '536931D80DECB18C33DB9612BDD004D4');
 INSERT INTO `user` VALUES (3, 'faris', 'pelayan', 'faris', '7D77E825B80CFF62A72E680C1C81424F');
+INSERT INTO `user` VALUES (6, 'indro', 'kasir', 'indro', '82a0ac33dc3e8f9ab3ca9238826ca56b');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
